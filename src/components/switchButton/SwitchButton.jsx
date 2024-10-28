@@ -14,8 +14,8 @@ const SwitchButton = ({handleSelectedState,selectedPlayer}) => {
 };
 
 SwitchButton.propTypes = {
-    handleSelectedState: PropTypes.func.isRequired,
-    selectedPlayer: PropTypes.array.isRequired,
+    handleSelectedState: PropTypes.func,
+    selectedPlayer: PropTypes.array,
 };
 
 export default SwitchButton;

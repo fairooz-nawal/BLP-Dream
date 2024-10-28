@@ -1,7 +1,7 @@
 
 import './App.css'
 import Header from './components/header/header'
-import Banner from './components/banner/banner'
+import Banner from './components/Banner/Banner';
 import SwitchButton from './components/switchButton/SwitchButton'
 import Cards from './components/Cards/Cards'
 import Subcribe from './components/Subscribe/Subcribe'

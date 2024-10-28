@@ -1,8 +1,10 @@
+import image from '../../../assets/logo.png';
+import PropTypes from 'prop-types';
 const Header = ({money}) => {
     return (
         <div className="max-w-screen-xl mx-auto pt-12 pb-5 flex justify-between">
             <div className="">
-                <img src="assets/logo.png" alt="" />
+                <img src={image} alt="" />
             </div>
             <div className="flex space-x-12 items-center">
                 <p>Home</p>
@@ -14,5 +16,7 @@ const Header = ({money}) => {
         </div>
     );
 };
-
+Header.propTypes = {
+    money: PropTypes.number,
+  }
 export default Header;

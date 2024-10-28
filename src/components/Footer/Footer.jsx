@@ -1,9 +1,9 @@
-
+import logo from '../../../assets/logo.png'
 const Footer = () => {
     return (
         <div className=" bg-gray-800 text-white p-10">
             <div className="mx-auto max-w-screen-xl mb-10">
-                <div className="w-[100px] mx-auto items-center"><img className="w-full h-full" src="assets/logo.png" alt="" /></div>
+                <div className="w-[100px] mx-auto items-center"><img className="w-full h-full" src={logo} alt="" /></div>
             </div> 
             <footer className="footer max-w-screen-xl mx-auto">
                
