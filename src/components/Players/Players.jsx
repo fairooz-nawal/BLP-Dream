@@ -12,7 +12,8 @@ const Selectedplayer = ({selectedPlayer,Deleteplayer}) => {
 };
 
 Selectedplayer.propTypes = {
-    selectedPlayer: PropTypes.array.isRequired,
+    selectedPlayer: PropTypes.array,
+    Deleteplayer: PropTypes.function, 
   };
 
 export default Selectedplayer;

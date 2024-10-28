@@ -32,7 +32,8 @@ const Player = ({player,Deleteplayer}) => {
 };
 
 Player.propTypes = {
-    player: PropTypes.object.isRequired,
+    player: PropTypes.object,
+    Deleteplayer: PropTypes.function,
   };
 
 export default Player;
